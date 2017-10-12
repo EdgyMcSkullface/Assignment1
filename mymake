@@ -9,7 +9,7 @@ OBJS=		\
 		$(BUILD_DIR)/CommonSpear.o \
 		$(BUILD_DIR)/SimpleAxe.o \
 		$(BUILD_DIR)/CrazyRandomSword.o \
-		$(BUILD_DIR)/DividingCleaver.o
+		$(BUILD_DIR)/DividingCleaver.o \
 		$(BUILD_DIR)/CommonSpear.o 
 
 all: main.out
