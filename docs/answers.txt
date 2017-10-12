@@ -13,3 +13,6 @@
 (i) (I) Inheritance allows objects to take properties of other existing objects by deriving one object from another, as in declaring a class within a base class.
     (II) Polymorphism refers to the ability of multiple different objects being able to be used in a particular case.
     (III) Encapsulation is the idea of obscuring the inner workings of an object or objects. This is to allow the user to use the object without fully understanding every aspect of its design, and also protects the user from accidentally breaking the implementation.
+
+7.
+It is using Polymorphism in the main.cpp file to use only one function to call functions of weapons of varying types. It is also using encapsulation in the Weapon.h and Weapon.cpp files, by giving the data "name" and "hitPoints" protected status while limiting the user to specific accessor functions, like getName() and hit().
