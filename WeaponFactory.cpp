@@ -11,6 +11,7 @@
 #include "CommonSpear.h"
 #include "SimpleAxe.h"
 #include "CrazyRandomSword.h"
+#include "DividingCleaver.h"
 
 WeaponFactory* WeaponFactory::instance = NULL;
 
@@ -36,6 +37,10 @@ Weapon * WeaponFactory::getWeapon(std::string name) {
 
     if (name.compare("random") == 0) {
         return new CrazyRandomSword();
+    }
+
+    if (name.compare("cleaver") == 0) {
+        return new DividingCleaver();
     }
 
     throw "Invalid weapon";
