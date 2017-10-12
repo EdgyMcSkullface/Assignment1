@@ -13,6 +13,7 @@
 #include "CrazyRandomSword.h"
 #include "DividingCleaver.h"
 
+
 WeaponFactory* WeaponFactory::instance = NULL;
 
 WeaponFactory * WeaponFactory::getInstance() {

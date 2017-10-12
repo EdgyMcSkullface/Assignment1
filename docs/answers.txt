@@ -1,0 +1,15 @@
+5.
+(a) [master cf977d5] Updated /docs/status.txt with the output of "git status" command.
+(b) 9, found with "git shortlog"
+(c) Wed Sep 27 16:31:42 2017
+    found using "git log .gitignore"
+(d) 36a8e55e4bbdd171ab57d979e1a802d740f2db9b
+    cb30d72a3d94c108f393c163a35c1cc9bf18ffca
+(e) 1. They give the ability to keep the master branch stable while developing other features.
+    2. Multiple new features simultaneously and separately without conflicting with each other.
+(f) "git status" only states what branch you are on and whether it is up to date with the master branch. "git log" lists all commits and merges made to the project.
+(g) git log "Weapon.h"
+(h) git log --grep=file
+(i) (I) Inheritance allows objects to take properties of other existing objects by deriving one object from another, as in declaring a class within a base class.
+    (II) Polymorphism refers to the ability of multiple different objects being able to be used in a particular case.
+    (III) Encapsulation is the idea of obscuring the inner workings of an object or objects. This is to allow the user to use the object without fully understanding every aspect of its design, and also protects the user from accidentally breaking the implementation.
